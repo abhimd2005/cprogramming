@@ -1,0 +1,32 @@
+c programming is a general purpose low level programming language.
+c programs allows users to efficiently control resources of microcontroller/microprocessor
+In c programming in one can write instructions in human readable languages and program can be converted into machine language.
+The process of converting user readable language into machine language is called as "Compilation process"
+below is the basic structure of c program
+-----------------------------------------------------
+commments
+preprocessor directives
+global variables
+int main(void)
+{
+	local variables
+	statements
+	...........
+	...........
+	return 0;
+}
+func1()
+{	
+	local variables
+	statements
+	...........
+	...........
+}
+func2()
+{  
+	local variables 
+	statements
+	...........
+	...........
+}
+	
