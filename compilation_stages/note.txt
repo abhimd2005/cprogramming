@@ -1,0 +1,30 @@
+Compilation stages are
+
+1. preprocessor
+2. compiler
+3. assembler
+4. linker
+
+preprocessor
+------------
+inputfile - .c
+outputfile - .i
+command - gcc -E myprogram.c -o myprogram.i
+
+compiler
+------------
+inputfile - .i
+outputfile - .s
+command - gcc -S myprogram.i -o myprogram.s
+
+assembler
+------------
+inputfile - .s
+outputfile - .o
+command - gcc -c myprogram.s -o myprogram.o
+
+linker
+-------------
+inputfile - .o
+outputfile - .exe or .out
+command - gcc myprogram.o -o myprogram.exe

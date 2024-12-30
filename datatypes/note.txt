@@ -1,0 +1,12 @@
+C has 4 premitive Datatypes
+char
+int
+float
+double
+
+c support two types of qualifiers
+signed and unsigned qualifiers
+
+char:
+char type will be of 8bits or 1byte size.
+if sign qualifier not specified, then deafault specifier depends on the machine.

@@ -1,0 +1,25 @@
+Basic structural elements of c language are
+
+1. Character sets
+---------------------------
+Upper letter Aphabets A B C
+Lower letter Aphabets a, b, c
+Digits 0,1 ... 9
+Graphical characters or special characters +*-?$#@&
+whitespace characters, like space, tab, newline
+Other characters like backspace, null character
+
+2. Escape sequences
+refer the table in book
+
+3. Trigraph characters
+refer the table in book
+
+4. Delimiters
+: ; () [] {} # ,
+
+5. Reserved Keywords
+auto, int, float, goto etc
+
+6. Identifiers
+7. Datatypes
