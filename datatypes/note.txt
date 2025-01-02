@@ -6,7 +6,15 @@ double
 
 c support two types of qualifiers
 signed and unsigned qualifiers
+size qualifier, short and long
 
 char:
 char type will be of 8bits or 1byte size.
 if sign qualifier not specified, then deafault specifier depends on the machine.
+ranges:
+signed -128 to 127
+unsigned 0 - 255
+
+int:
+size of an integer depends on the machine and compiler
+
