@@ -17,4 +17,69 @@ unsigned 0 - 255
 
 int:
 size of an integer depends on the machine and compiler
+short int - 2bytes 
+long int - 4bytes
+by default int will be long int.
+TODO: write ranges of all signed, unsigned, long signed and long unsigned
+
+float:
+size of a float is 4bytes
+size of double is 8 bytes
+size of long double is 12bytes
+float or double cannot be unsigned.
+TODO: write ranges of all signed, unsigned, long signed and long unsigned
+
+Summary:
+C has 4 premitive datatypes, such as char, int, float, double, and it has two types of qualifier which are size and sign qualifiers
+Sign qualiers are signed and unsigned which can be used for all the 4 datatypes
+Size qualifiers are short and long which can be used for int to get long int and short, long can be used for double to get long double
+
+------------------------------------------------------------------------------------------------------------------------------------------
+Constants:
+Constant is value which cannot be changed.
+There are 3 types of Constants
+    1. Character Constant
+    2. String Constant
+    3. Numeric Constant
+        a. Integer Constant
+            i. Decimal
+            ii. Octal
+            iii. Hexa decimal
+        b. Real Constant
+
+Character Constant:
+    A charactes is a single character enclosed with single quote
+    examples, 'e', 'A', '9'
+    Some invalid character constant are
+    "A", 'Hello', '',  y
+
+    Each character is represented by it equivalent ASCII value.
+    for example letter 'A' is stored as its equivalent value 65.
+    65 is stored in its binary format in memory of 1byte
+
+String Constant:
+    A string constant is represented with double quote and will have single or more characters in it.
+    A default null character also shown as '\0' is inserted at the end of each constant by the compiler.
+    So every string constant will have a null character at the end.
+
+    e.g:
+        "ABHISHEK" is stored as below in the memory
+        |'A'|'B'|'H'|'I'|'S'|'H'|'E'|'K'|'\0'|, each character's ASCII is stored in binary format.
+
+Integer Constants:
+    Integer has 3 types of Constants
+    Decimal: numbers system with base 10
+    Octal: numbers system with base 8
+    Hexadecimal: numbers system with base 16
+
+    Decimal values: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+    Octal values: 0, 1, 2, 3, 4, 5, 6, 7
+    Hexadecimal values: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F letters can be either capital or small case
+
+    e.g
+    Decimal 75 is represented as 113 in octal and 4B or 4b in Hexadecimal
+
+    Octal number start with 0, that means above number 75 should be give as 0113 in octal
+    Hexadecimal number should always start with 0x, that means above number 75 will be given as 0x4B or 0x4b
+
 
