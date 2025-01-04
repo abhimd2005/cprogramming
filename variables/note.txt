@@ -1,0 +1,9 @@
+Variables:
+    Variables are name used to store values
+    Same rules as naming identifiers also applies for variables.
+
+    It is must to declare a variable that is used in the program
+
+    syntax:
+
+    datatype variablename;

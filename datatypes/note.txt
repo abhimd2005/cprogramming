@@ -20,14 +20,22 @@ size of an integer depends on the machine and compiler
 short int - 2bytes 
 long int - 4bytes
 by default int will be long int.
-TODO: write ranges of all signed, unsigned, long signed and long unsigned
+ranges:
+int or signed int              -32768 to 32768
+unsigned int                    0 to 65535
+short int or signed short int  -128 to 127
+unsigned short int              0 to 255
+long int or signed long int    -2147483648 to 2147483648
+unsigned long int               0 to 4294967295  
 
 float:
 size of a float is 4bytes
 size of double is 8 bytes
 size of long double is 12bytes
 float or double cannot be unsigned.
-TODO: write ranges of all signed, unsigned, long signed and long unsigned
+float 3.4E-38 to 3.4E+38
+double 1.7E-308 to 1.7E+308
+long double 3.4E-4932 to 1.1E+4934
 
 Summary:
 C has 4 premitive datatypes, such as char, int, float, double, and it has two types of qualifier which are size and sign qualifiers
@@ -82,4 +90,9 @@ Integer Constants:
     Octal number start with 0, that means above number 75 should be give as 0113 in octal
     Hexadecimal number should always start with 0x, that means above number 75 will be given as 0x4B or 0x4b
 
+Symbolic constants:
+    Symbolic constants are used to give a name to the value which is used at many places in the program
+    syntax of defining a symbolic constant
+
+    #define name value
 

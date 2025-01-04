@@ -1,0 +1,15 @@
+
+
+function syntax in c:
+
+returntype nameofthefunction(arguments){
+    return value;
+}
+
+int main(void){
+    return 0;
+}
+
+int printf(string_constant, valuue1, value2){
+    
+}
